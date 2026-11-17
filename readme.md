@@ -4,7 +4,7 @@ The project aims to build an event management platform for better inclusion of e
 ```bash
 npm install
 cp .env.example .env      # then set DATABASE setting varibales, PORT and SECRET_KEY
-npm run dev  
+node --loader ts-node/esm index.ts  
 ```
 
 ## TODO:
